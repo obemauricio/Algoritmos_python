@@ -4,6 +4,7 @@ step = epsilon**2
 answer = 0.0
 
 while abs(answer**2 - target) >= epsilon and answer <= target:
+    print(answer)
     answer += step
 
 if abs(answer**2 - target) >= epsilon:
